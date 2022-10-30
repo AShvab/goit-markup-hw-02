@@ -2,9 +2,9 @@
     /* -----------------------body--------------------- */
 
 body {
-  
-    color: #757575;
-    font-family: Roboto, sans-serif;
+  background-color: #F5F5F5;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
     
 } 
 
@@ -22,6 +22,7 @@ h4,
 h5,
 h6 {
   color: #212121;
+  
   
 }
 /* ----------------------logo--------------------------- */
@@ -178,9 +179,69 @@ h6 {
   text-align: center;
 }
 
+/* ------------------filter-------------------- */
+
+.filter-btn{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #F5F4FA;
+  border: none;
+}
+
+.filter-btn-active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border: none;
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+  cursor: pointer;
+  color:#2196F3 ;
+  
+}
+
+/* ---------------filter-portfolio----------- */
+
+.filter-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+}
+
+.filter-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.filter-title:hover,
+.filter-text:hover,
+.filter-title:focus,
+.filter-text:focus {
+  color:#2196F3;
+}
+
 /* --------------------footer--------------------- */
 
-.footer {
+.contacts {
   background-color:  #2F303A;
   
 }
@@ -203,30 +264,32 @@ h6 {
   color: #FFFFFF;
 }
 
-/* ----------------------adress-------------------- */
+/* ----------------------address-------------------- */
 
-.address-address {
+.contacts-link {
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  font-style: normal;
 }
 
-.address-mail,
-.address-phone {
+.contacts-mail,
+.contacts-phone {
+  font-family: 'Roboto', sans-serif;
+  font-style:normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-mail:hover,
-.address-phone:hover,
-.address-address:hover,
-.address-mail:focus,
-.address-phone:focus
-.address-address:focus {
-  color:#2196F3;
-}
-
-
+.contacts-link:hover,
+.contacts-mail:hover,
+.contacts-phone:hover,
+.contacts-link:focus,
+.contacts-mail:focus
+.contacts-phone:focus {
+   color:#2196F3; 
+} 
