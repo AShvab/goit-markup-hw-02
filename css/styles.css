@@ -1,9 +1,18 @@
+:root {
+  --primary-text-color:#757575;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+  --primary-background-color: #F5F5F5;
+ 
+}
+
+
 
     /* -----------------------body--------------------- */
 
 body {
-  background-color: #F5F5F5;
-  color: #757575;
+  background-color:var(--primary-background-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
     
 } 
@@ -21,7 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212121;
+  color: var(--title-text-color);
+ 
   
   
 }
@@ -61,12 +71,12 @@ h6 {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--title-text-color);
   }
   
   .header-nav-link:hover,
   .header-nav-link:focus {
-    color:#2196F3;
+    color:var(--accent-color);
   }
 
 /* ------------------------contacts-------------------- */
@@ -76,7 +86,7 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color:var(--accent-color);
 
 }
 
@@ -85,7 +95,7 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .header-contact {
@@ -93,13 +103,13 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: inherit;
 
 }
 
 .header-contact:hover,
 .header-contact:focus {
-  color:#2196F3;
+  color:var(--accent-color);
 }
 
 /* ------------------------hero----------------------- */
@@ -111,34 +121,35 @@ h6 {
 }
 
 .hero-title {
-  text-align: center;
-  letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36; 
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 
 }
 
 .hero-btn {
-  background-color: #2196F3;
+  background-color:var(--accent-color);
   border: none;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-}
-
-.hero-btn:hover,
-.hero-btn:focus{
   cursor: pointer;
 }
+
+/* .hero-btn:hover,
+.hero-btn:focus{
+  color: var(--accent-color);
+} */
 
 /* ---------------------description-------------------- */
 
 .description-subtitle {
-  
+ 
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -156,15 +167,17 @@ h6 {
 
 .about-subtitle,
 .team-subtitle {
-  
+  color: var(--title-text-color);
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* -------------------team------------------------- */
 
 .team-member {
+  color:var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -173,6 +186,7 @@ h6 {
 }
 
 .team-item {
+  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -188,9 +202,10 @@ h6 {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background: #F5F4FA;
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
   border: none;
+  cursor: pointer;
 }
 
 .filter-btn-active {
@@ -200,43 +215,45 @@ h6 {
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: #FFFFFF;
-  background-color: #2196F3;
+  background-color: var(--accent-color);
   border: none;
+  cursor: pointer;
 
 }
 
 .filter-btn:hover,
 .filter-btn:focus{
-  cursor: pointer;
-  color:#2196F3 ;
+
+  color:var(--accent-color);
   
 }
 
-/* ---------------filter-portfolio----------- */
+/* ---------------------------------------------filter-portfolio-------------------------------------- */
 
 .filter-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
 
 }
 
 .filter-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .filter-title:hover,
 .filter-text:hover,
 .filter-title:focus,
 .filter-text:focus {
-  color:#2196F3;
+  color:var(--accent-color);
 }
 
 /* --------------------footer--------------------- */
@@ -252,7 +269,7 @@ h6 {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 .footer-logo-studio {
@@ -291,5 +308,5 @@ h6 {
 .contacts-link:focus,
 .contacts-mail:focus
 .contacts-phone:focus {
-   color:#2196F3; 
+   color:var(--accent-color); 
 } 
