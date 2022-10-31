@@ -222,7 +222,8 @@ h6 {
 .filter-btn:hover,
 .filter-btn:focus{
 
-  color:var(--accent-color);
+  color:#FFFFFF;
+  background-color: #2196F3;
   
 }
 
