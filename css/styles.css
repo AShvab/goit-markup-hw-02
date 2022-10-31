@@ -131,6 +131,7 @@ h6 {
 }
 
 .hero-btn {
+  font-family: 'Roboto',sans-serif;
   background-color:var(--accent-color);
   border: none;
   color: #FFFFFF;
@@ -141,10 +142,7 @@ h6 {
   cursor: pointer;
 }
 
-/* .hero-btn:hover,
-.hero-btn:focus{
-  color: var(--accent-color);
-} */
+
 
 /* ---------------------description-------------------- */
 
