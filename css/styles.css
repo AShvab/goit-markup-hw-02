@@ -2,7 +2,7 @@
   --primary-text-color:#757575;
   --title-text-color:#212121;
   --accent-color:#2196F3;
-  --primary-background-color: #F5F5F5;
+  --primary-background-color: #FFFFFF;
  
 }
 
@@ -36,6 +36,7 @@ h6 {
   
 }
 /* ----------------------logo--------------------------- */
+
 
 
 .header-logo-web {
@@ -81,7 +82,7 @@ h6 {
 
 /* ------------------------contacts-------------------- */
 
-.header-nav-link-current {
+.header-nav-link.current {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -174,6 +175,10 @@ h6 {
 
 /* -------------------team------------------------- */
 
+.team {
+  background-color: #F5F4FA;
+}
+
 .team-member {
   color:var(--title-text-color);
   font-weight: 500;
@@ -191,7 +196,7 @@ h6 {
   text-align: center;
 }
 
-/* ------------------filter-------------------- */
+/* ------------------filter-btn-------------------- */
 
 .filter-btn{
   font-family: 'Roboto', sans-serif;
@@ -249,8 +254,8 @@ h6 {
 }
 
 .filter-title:hover,
-.filter-text:hover,
-.filter-title:focus,
+.filter-text:hover, 
+.filter-title:focus
 .filter-text:focus {
   color:var(--accent-color);
 }
@@ -305,7 +310,7 @@ h6 {
 .contacts-mail:hover,
 .contacts-phone:hover,
 .contacts-link:focus,
-.contacts-mail:focus
+.contacts-mail:focus,
 .contacts-phone:focus {
    color:var(--accent-color); 
 } 
